@@ -8,7 +8,7 @@
     "demo": {
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:browser-esbuild",
           "configurations": {
             "development": {
               "buildOptimizer": false,
@@ -42,6 +42,7 @@
             "outputPath": "dist/demo",
             "scripts": [],
             "styles": ["src/global_styles.css"],
+            "polyfills": ["src/polyfills.ts"],
             "tsConfig": "src/tsconfig.app.json"
           }
         },
