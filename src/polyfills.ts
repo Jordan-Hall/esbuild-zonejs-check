@@ -51,3 +51,4 @@ import 'zone.js/plugins/zone-patch-rxjs';
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+import './zone-runtime';
